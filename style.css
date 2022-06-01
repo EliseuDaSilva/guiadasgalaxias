@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Encode+Sans+Semi+Condensed:wght@500&family=Montserrat:wght@400;600&family=Outfit:wght@300&display=swap');
+
+@font-face {
+    font-family:Space Age;
+    src: url('fonts/spaceAge.ttf');
+ 
+}
+/* Segunda opção para importação da fonte do título.
+@font-face {font-family: Space Age; 
+    src: url('https://db.onlinewebfonts.com/t/0240c667c62571a769182586c806a0a6.ttf'); 
+}
+*/
+
+.header-content {
+    margin-top: 0px;
+    background-image: url("https://cdnnbr1.img.sputniknews.com/img/07e6/01/1e/21214116_0:306:2551:1741_1920x0_80_0_0_fd232c6de9af7e3c6d733cfaed9dc220.jpg.webp");
+    background-position: center top;
+    height: auto;
+    width: 100%;
+}
+
+.paragraph-header {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    margin-top: 15px;
+    color: #ffff;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.paragraph-credits {
+    color: rgba(255, 255, 255, 0.712);
+    font-size: 8px;
+    text-align: right;
+}
+
+main {
+    background-color: #ffff;
+    border-radius: 5px;
+    margin: 30px;
+
+}
+
+body {
+    background-color: #01051b;
+    margin: 0px;
+}
+
+h1 {
+    font-family: Space Age;
+    font-size: 3.8rem ;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    text-align: center;
+    color: #ffff;
+    text-shadow: 4px 4px 8px #000000;
+}
+
+main, h2, h3, h4, p, img, ul, ol {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    margin-top: 10px;
+    margin: 30px;
+}
+
+main, p, li {
+    line-height: 1.5rem;
+}
+
+p {
+    text-align: justify;
+}
+
+#localization {
+    border: 1px solid #000000;
+}
+
+footer {
+    background-color: #06375f;
+    color: #ffff;
+    
+}
+
+.footer-content {
+    font-size: 10px;
+    text-align: center;
+    padding: 5px;
+}
+
+#footer-link {
+    text-decoration: none;
+    color: #ffff;
+}
+
+#footer-link:hover {
+    text-decoration: underline;
+}
+
