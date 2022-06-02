@@ -34,6 +34,8 @@
     color: rgba(255, 255, 255, 0.712);
     font-size: 8px;
     text-align: right;
+    line-height: 10px;
+    margin-right: 5px;
 }
 
 main {
@@ -50,7 +52,7 @@ body {
 
 h1 {
     font-family: Space Age;
-    font-size: 3.8rem ;
+    font-size: 3.5rem ;
     margin-top: 0px;
     margin-bottom: 0px;
     padding-top: 20px;
@@ -68,8 +70,20 @@ main, h2, h3, h4, p, img, ul, ol {
     margin: 30px;
 }
 
+#image-andromeda {
+    width: 250px;
+}
+
+#black-eye-galaxy {
+    width: 250px;
+}
+
 main, p, li {
     line-height: 1.5rem;
+}
+
+.second-list {
+    margin-left: 0px;
 }
 
 p {
